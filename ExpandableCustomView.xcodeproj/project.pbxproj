@@ -13,6 +13,8 @@
 		2C0BC63424B8759F001DC829 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C0BC63224B8759F001DC829 /* Main.storyboard */; };
 		2C0BC63624B875A3001DC829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C0BC63524B875A3001DC829 /* Assets.xcassets */; };
 		2C0BC63924B875A3001DC829 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C0BC63724B875A3001DC829 /* LaunchScreen.storyboard */; };
+		2C0BC64B24B87DDD001DC829 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0BC64A24B87DDD001DC829 /* CustomView.swift */; };
+		2C18715D24B884AE00D39163 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C18715C24B884AE00D39163 /* CustomView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2C0BC63524B875A3001DC829 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C0BC63824B875A3001DC829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C0BC63A24B875A3001DC829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C0BC64A24B87DDD001DC829 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		2C18715C24B884AE00D39163 /* CustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				2C0BC63524B875A3001DC829 /* Assets.xcassets */,
 				2C0BC63724B875A3001DC829 /* LaunchScreen.storyboard */,
 				2C0BC63A24B875A3001DC829 /* Info.plist */,
+				2C0BC64A24B87DDD001DC829 /* CustomView.swift */,
+				2C18715C24B884AE00D39163 /* CustomView.xib */,
 			);
 			path = ExpandableCustomView;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C0BC63924B875A3001DC829 /* LaunchScreen.storyboard in Resources */,
+				2C18715D24B884AE00D39163 /* CustomView.xib in Resources */,
 				2C0BC63624B875A3001DC829 /* Assets.xcassets in Resources */,
 				2C0BC63424B8759F001DC829 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C0BC63124B8759F001DC829 /* ViewController.swift in Sources */,
+				2C0BC64B24B87DDD001DC829 /* CustomView.swift in Sources */,
 				2C0BC62D24B8759F001DC829 /* AppDelegate.swift in Sources */,
 				2C0BC62F24B8759F001DC829 /* SceneDelegate.swift in Sources */,
 			);
